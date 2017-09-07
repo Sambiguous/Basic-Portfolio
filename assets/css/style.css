@@ -8,8 +8,14 @@ a {
 	color: #777777;
 }
 
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+hr {
+	margin: 10px 0px;
+}
 #top_bar {
-	width: 100%;
 	height: 75px;
 	background-color: white;
 }
@@ -62,11 +68,21 @@ a {
 	font-weight: bold;
 }
 
-#main p {
-	margin: 10px;
+#pic {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin-right: 10px;
 }
 
-#main img {
-	display: inline-block;
-	float: left;
+#connect {
+	background-color: white;
+	margin: 10px;
+	float: right;
+	width: 270px;
+}
+
+#links img {
+	height: 50px;
+	width: 50px;
 }
