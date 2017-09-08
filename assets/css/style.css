@@ -9,6 +9,7 @@ a {
 }
 
 p {
+	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -28,6 +29,21 @@ footer {
 	background-color: #666666;
 }
 
+input {
+	width: 100%;
+	height: 25px;
+}
+
+form p {
+	margin:15px 0px 5px 0px;
+}
+
+textarea {
+	height: 150px;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
 .panel {
 	border: 1px solid #dddddd;
 	display: inline-block;
@@ -41,6 +57,10 @@ footer {
 	font-size: 25px;
 	color: #4AAAA5;
 	font-weight: bold;
+}
+
+.main_text {
+	line-height: 2em;
 }
 
 
@@ -73,16 +93,13 @@ footer {
 }
 
 #name_nav p {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	float: right;
 	line-height: 75px;
-	color: #777777;
 	padding: 0px 10px
 }
 
 #content {
 	padding-bottom: 75px;
-	line-height: 2em;
 	margin: 0 auto;
 	width: 960px;
 }
@@ -95,7 +112,7 @@ footer {
 	height: 150px;
 	width: 150px;
 	float: left;
-	margin-right: 10px;
+	margin: 9px 10px 0px 0px;
 }
 
 #connect {
@@ -112,7 +129,7 @@ footer {
 }
 
 #links img {
-	margin: 0 5px;
+	margin: 5px;
 	height: 60px;
 	width: 60px;
 }
@@ -125,5 +142,16 @@ footer {
 #copyright {
 	font-size: 10px;
 	color: #d3d3d3;
+}
+
+#button {
+	background-color: #4AAAA5;
+	padding: 0px;
+	border: 0px;
+	margin: 20px 0px 0px 0px;
+	height: 40px;
+	width: 125px;
+	color: white;
+	font-size: 16px;
 }
 
