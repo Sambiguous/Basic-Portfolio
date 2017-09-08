@@ -89,10 +89,9 @@ textarea {
 	font-size: 25px;
 	color: white;
 	line-height: 50px;
-}	
+}
 
 #top_bar {
-	width: 100%;
 	height: 75px;
 	background-color: #ffffff;
 	border: 1px solid #cccccc;
@@ -116,7 +115,7 @@ textarea {
 #name_tag {
 	line-height: 75px;
 	color: white;
-	
+
 }
 
 #name_nav p {
