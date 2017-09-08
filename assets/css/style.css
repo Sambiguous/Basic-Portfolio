@@ -17,14 +17,32 @@ hr {
 }
 
 footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 75px;
 	text-align: center;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 	height: 75px;
 	background-color: #666666;
 }
+
+.panel {
+	border: 1px solid #dddddd;
+	display: inline-block;
+	background-color: #ffffff;
+	margin: 20px 10px;
+	padding: 20px;
+}
+
+.heading {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	color: #4AAAA5;
+	font-weight: bold;
+}
+
+
 #top_bar {
 	width: 100%;
 	height: 75px;
@@ -38,13 +56,10 @@ footer {
 	margin: 0 auto;
 }
 
-#name_nav h1 {
+#name_tag {
 	margin-left: 10px;
-	font-weight: bold;
 	padding: 0px 20px;
 	float: left;
-	font-size: 25px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: white;
 	background-color: #4AAAA5;
 	line-height: 75px
@@ -59,24 +74,14 @@ footer {
 }
 
 #content {
+	padding-bottom: 75px;
 	line-height: 2em;
 	margin: 0 auto;
 	width: 960px;
 }
 
 #main {
-	display: inline-block;
-	width: 610px;
-	background-color: #ffffff;
-	margin: 10px;
-	padding: 20px;
-}
-
-#main h1 {
-	color: #4AAAA5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 25px;
-	font-weight: bold;
+	width: 608px;
 }
 
 #pic {
@@ -87,20 +92,12 @@ footer {
 }
 
 #connect {
-	display: inline-block;
 	float: right;
-	background-color: white;
-	margin: 10px;
-	width: 230px;
-	padding: 20px;
+	width: 228px;
 }
 
-#connect h1 {
-	font-weight: bold;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+#smaller {
 	font-size: 20px;
-	color: #4AAAA5;
-
 }
 
 #links {
@@ -108,9 +105,18 @@ footer {
 }
 
 #links img {
-
 	margin: 0 5px;
 	height: 60px;
 	width: 60px;
+}
+
+#tiny_bar {
+	background-color: #4AAAA5;
+	height: 5px;
+}
+
+#copyright {
+	font-size: 10px;
+	color: #d3d3d3;
 }
 
